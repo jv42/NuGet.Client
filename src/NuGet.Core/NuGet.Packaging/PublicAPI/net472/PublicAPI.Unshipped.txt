@@ -1,3 +1,12 @@
 #nullable enable
+~NuGet.ContentModel.ContentPropertyDefinition.ContentPropertyDefinition(string name, System.Func<System.ReadOnlyMemory<char>, NuGet.ContentModel.PatternTable, object> parser) -> void
+~NuGet.ContentModel.ContentPropertyDefinition.ContentPropertyDefinition(string name, System.Func<System.ReadOnlyMemory<char>, NuGet.ContentModel.PatternTable, object> parser, System.Collections.Generic.IEnumerable<string> fileExtensions) -> void
+~NuGet.ContentModel.ContentPropertyDefinition.ContentPropertyDefinition(string name, System.Func<System.ReadOnlyMemory<char>, NuGet.ContentModel.PatternTable, object> parser, System.Collections.Generic.IEnumerable<string> fileExtensions, bool allowSubfolders) -> void
+~NuGet.ContentModel.ContentPropertyDefinition.ContentPropertyDefinition(string name, System.Func<System.ReadOnlyMemory<char>, NuGet.ContentModel.PatternTable, object> parser, System.Func<object, object, bool> compatibilityTest) -> void
+~NuGet.ContentModel.ContentPropertyDefinition.ContentPropertyDefinition(string name, System.Func<System.ReadOnlyMemory<char>, NuGet.ContentModel.PatternTable, object> parser, System.Func<object, object, bool> compatibilityTest, System.Func<object, object, object, int> compareTest) -> void
+~NuGet.ContentModel.ContentPropertyDefinition.ContentPropertyDefinition(string name, System.Func<System.ReadOnlyMemory<char>, NuGet.ContentModel.PatternTable, object> parser, System.Func<object, object, bool> compatibilityTest, System.Func<object, object, object, int> compareTest, System.Collections.Generic.IEnumerable<string> fileExtensions, bool allowSubfolders) -> void
+~NuGet.ContentModel.ContentPropertyDefinition.Parser.get -> System.Func<System.ReadOnlyMemory<char>, NuGet.ContentModel.PatternTable, object>
+~NuGet.ContentModel.PatternTable.TryLookup(string propertyName, System.ReadOnlyMemory<char> name, out object value) -> bool
 ~NuGet.RuntimeModel.IObjectWriter.WriteNonEmptyNameArray(string name, System.Collections.Generic.IEnumerable<string> values) -> void
 ~NuGet.RuntimeModel.JsonObjectWriter.WriteNonEmptyNameArray(string name, System.Collections.Generic.IEnumerable<string> values) -> void
+~virtual NuGet.ContentModel.ContentPropertyDefinition.TryLookup(System.ReadOnlyMemory<char> name, NuGet.ContentModel.PatternTable table, out object value) -> bool
