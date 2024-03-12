@@ -1,5 +1,5 @@
 #nullable enable
-NuGet.ProjectModel.RestoreAuditProperties.SuppressedAdvisories.get -> System.Collections.Generic.IList<string!>!
+NuGet.ProjectModel.RestoreAuditProperties.SuppressedAdvisories.get -> System.Collections.Generic.HashSet<string!>?
 NuGet.ProjectModel.RestoreAuditProperties.SuppressedAdvisories.set -> void
 NuGet.ProjectModel.RestoreAuditProperties.TryParseAuditLevel(out NuGet.Protocol.PackageVulnerabilitySeverity result) -> bool
 NuGet.ProjectModel.RestoreAuditProperties.TryParseEnableAudit(out bool result) -> bool
