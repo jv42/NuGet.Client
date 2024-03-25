@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>$(MinimalTargetFrameworksExeSigning)</TargetFrameworks>
+    <TargetFrameworks>$(MinimalTargetFrameworksExe)</TargetFrameworks>
     <OutputType>Exe</OutputType>
     <Shipping>true</Shipping>
     <PackProject>true</PackProject>
